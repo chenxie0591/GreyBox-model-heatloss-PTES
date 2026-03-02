@@ -1,13 +1,12 @@
 # GreyBox-model-heatloss-PTES
 
 This notebook implements **Grey Box models** for predicting heat loss for a pit thermal energy storage (PTES) system. 
+
 The models combines a resistance–capacitance (RC) thermal model with differential evolution (DE) to identify thermal properties directly from monitoring data. 
 
 ## Overview
-- **Inputs**: water temperatures, air temperature, the geometry of the pit.
+- **Inputs**: water temperatures, air temperature, geometry of the pit, energy-balance-based heat loss.
 - **Output**: Predicted heat loss.
-- **Use case**: Fit a given model structure to your data, then use it for analysis or control.
-
 
 ## Models
    - **5R2C**: 5 resistances, 2 capacitances
